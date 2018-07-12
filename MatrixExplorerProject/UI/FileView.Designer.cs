@@ -1,4 +1,7 @@
-﻿namespace MatrixExplorerProject.UI
+﻿using System.Windows.Forms;
+using MatrixExplorerProject.Scripts;
+
+namespace MatrixExplorerProject.UI
 {
     partial class FileView
     {
@@ -6,6 +9,12 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// ListViewジャグ配列定義
+        /// 管理は別Classで行う
+        /// </summary>
+        private ListViewArray LVArray;
 
         /// <summary>
         /// Clean up any resources being used.
